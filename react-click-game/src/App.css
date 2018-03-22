@@ -26,7 +26,41 @@ img {
   float: left;
   height: 200px;
   width: 200px;
+  padding: 5px;
 }
+.container-fluid {
+  background-color: #222;
+}
+.brand {
+  width: 33%;
+  color: white;
+}
+#title {
+  color: white;
+}
+.centered {
+  width: 100%;
+  margin: 0 auto;
+}
+#message {
+  text-align: center;
+  color: white;
+  float: none;
+  font-size: 30px;
+}
+.center {
+  width: 33%;
+  float: left;
+  display: inline-block;
+}
+.scores {
+  margin-right: 40px;
+  text-align: center;
+  color: white;
+  font-size: 20px;
+  margin-top: 10px;
+}
+
 
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
